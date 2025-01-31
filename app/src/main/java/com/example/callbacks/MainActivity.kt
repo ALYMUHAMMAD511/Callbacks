@@ -61,18 +61,17 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun updateText(){
+    private fun updateText() {
         textView.text = getString(R.string.aly)
     }
 
-    private fun updateColor(){
+    private fun updateColor() {
         val red = ContextCompat.getColor(this, R.color.red)
         textView.setTextColor(red)
     }
 
-    private fun updateImage(){
+    private fun updateImage() {
         val image = ContextCompat.getDrawable(this, R.drawable.baseline_block_24)
         imageView.setImageDrawable(image)
     }
-
 }
