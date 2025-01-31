@@ -3,4 +3,7 @@
     <string name="username">Username</string>
     <string name="save_username">Save Username</string>
     <string name="click">Click</string>
+    <string name="hello">HELLO</string>
+    <string name="aly">Aly Muhammad</string>
+    <string name="logo">logo</string>
 </resources>
